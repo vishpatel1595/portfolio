@@ -54,6 +54,16 @@ a:hover {
 }
 
 
+.navbar li .nav-link {
+    color: var(--text-color);
+}
+.navbar li .nav-link:hover {
+    color: var(--primary-color);
+}
+.navbar li.active .nav-link {
+    color: var(--primary-color);
+}
+
 .emailid {
  margin: 0;
  padding: 0;
